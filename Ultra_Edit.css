@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content {
+    background-color: #222222;
+    width: 100%;
+
+
+}
+
+header {
+    background-color: #222222;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .main_nav {
+    width: 92%;
+    display: flex;
+    align-items: center;
+}
+
+.content .main_nav .nav_logo img {
+    height: 82px;
+    width: auto;
+
+}
+
+header .nav_content {
+    margin-top: 17px;
+    width: 38%;
+    position: absolute;
+    right: 6%;
+}
+
+header .nav_content ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+header .nav_content ul li {
+    /* width:10%; */
+}
+
+header .nav_content ul a {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+}
+
+header .nav_content ul a img {
+    margin-left: 7px;
+    height: 10px;
+    width: 10px;
+}
+
+header .nav_content ul a #imglang {
+    height: 24px;
+    width: 30px;
+}
+
+/*hero section*/
+.content .hero {
+    background-color: #222222;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    /* background-color:#222222; */
+}
+
+.hero .hero_content {
+    background-color: #222222;
+    width: 92%;
+    height: 100%;
+    display: flex;
+
+}
+
+.hero .hero_content .left {
+    margin-left:6%;
+    width: 62%;
+}
+
+.hero .hero_content .left img {
+    position: relative;
+    top: 7%;
+}
+
+.hero .hero_content .left h1 {
+    color: white;
+    font-family: cursive;
+    font-size: 1.6rem;
+    position: relative;
+    left: 0%;
+    top: 10%;
+}
+
+.hero .hero_content .left .btn {
+    display: flex;
+    position: relative;
+    top: 19%;
+    left: 0%;
+}
+
+.hero .hero_content .left .btn .hero_btn {
+    color: white;
+    font-family: cursive;
+    font-size: 0.9rem;
+    width: 40%;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.hero .hero_content .left .btn #download {
+    background-color: rgba(0, 255, 255, 0.695);
+    border: 0px;
+}
+
+.hero .hero_content .left .btn #buy {
+    background-color: #222222;
+    border: 3px solid white;
+    margin-left:15px;
+}
+
+.hero .hero_content .left p {
+    position: relative;
+    top: 25%;
+}
+
+.hero .hero_content .left p a {
+    color: white;
+    font-size:1.1rem;
+
+}
+
+.hero .hero_content .right img {
+    height:fit-content;
+}
+
+/*contents*/
+
+.content .winnings{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-bottom:70px;
+
+}
+.content .batches{
+    margin-bottom:60px;
+}
+.content .batches img{
+    height:190px;
+}
+.content .winnings h3{
+    color:white;
+    font-size:xx-large;
+}
+
+.content .achiving{
+    display:flex;
+    justify-content:space-evenly;
+}
+.content .achiving .star{
+    width:11%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.content .achiving .star img{
+    height:28px;
+    margin-bottom:10px;
+}
+.content .achiving .star .text{
+    color:white;
+    font-size:1rem;
+}
+.content .achiving .star .text span{
+    margin-bottom:19px;
+    
+}
+.content .body_start{
+    background-color:rgba(255, 255, 0, 0.972);
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+.content .body_start h2{
+    font-size:1.7rem;
+    height:65px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+
+}
+
+/*about*/
+.about{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:110px;
+}
+.about div {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:55px
+}
+.about img{
+    margin-bottom:10px;
+    height:50px;
+    width:auto;
+
+}
+.about .fourth img{
+    margin-bottom:30px;
+}
+body .about div p strong{
+    margin-bottom:10px;
+}
+
+/*footer section*/
+footer{
+    background-color:rgb(247 245 245 / 93%);
+    padding:100px;
+}
+
+footer .main{
+    
+    display:flex;
+    justify-content:space-evenly;
+}
+footer .main div{
+    letter-spacing: 1px;
+    line-height: 2;
+}
+footer .main div ul li{
+    list-style:none;
+}
+footer .main #sub input{
+    height: 43px;
+    width: 245px;
+    border: 2px solid rgb(123, 120, 120);
+    border-radius: 8px;
+}
+footer .main #sub button{
+    margin-top:10px;
+    background-color:rgba(0, 255, 255, 0.818);
+    border: 4px solid rgba(0, 255, 255, 0.818);
+    height: 47px;
+    width: 250px;
+    border-radius: 8px;
+}
+body > footer > div:nth-child(2) > img{
+    height:55px;
+}
